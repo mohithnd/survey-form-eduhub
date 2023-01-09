@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrowthX</title>
+  </head>
+  <body>
+    <h1>Welcome To SDE Department</h1>
+    <hr />
+    <h3>Enter Your Details For Joining Our Company:-</h3>
+    <form action="./response.html">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <br />
+      <br />
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" required />
+      <br />
+      <br />
+      <label for="phone">Phone No:</label>
+      <input type="tel" id="phone" />
+      <br />
+      <br />
+      <label for="dob">DOB:</label>
+      <input type="date" id="dob" />
+      <br />
+      <br />
+      <label for="gender">What is Your Gender:</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">FeMale</label>
+      <input type="radio" id="other" name="gender" />
+      <label for="other">Other</label>
+      <br />
+      <br />
+      <label for="exp">What is Your Experience:</label>
+      <input type="radio" id="fresher" name="exp" />
+      <label for="fresher">Fresher</label>
+      <input type="radio" id="1" name="exp" />
+      <label for="1">1-5 Years</label>
+      <input type="radio" id="5" name="exp" />
+      <label for="5">>5 Years</label>
+      <br />
+      <br />
+      <label for="degree">Highest Qualification:</label>
+      <select id="degree">
+        <option value="">Graduate</option>
+        <option value="">Post-Graduate</option>
+        <option value="">Doctorate</option>
+        <option value="">School Student</option>
+      </select>
+      <br />
+      <br />
+      <label for="tech">Tech Stack & Tools You Know:</label>
+      <textarea id="tech" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>
